@@ -70,6 +70,7 @@ docker run -d --name server-drupal --publish 9700:80 -v drupal-html:/var/www/htm
 _La instalación puede tomar varios minutos, mientras espera realice un diagrama de los contenedores que ha creado en este apartado._
 
 # COMPLETAR CON EL DIAGRAMA SOLICITADO
+```
 +-------------------+
 | net-drupal        |
 |                   |
@@ -85,6 +86,7 @@ _La instalación puede tomar varios minutos, mientras espera realice un diagrama
 | | client-postgres| |
 | +---------------+ |
 +-------------------+
+```
 ### Eliminar un volumen específico
 ```
 docker volume rm <nombre volumen>
